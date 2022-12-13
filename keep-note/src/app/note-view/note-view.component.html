@@ -1,0 +1,3 @@
+<app-add-note (addedNote)="addedNoteComponet($event)"></app-add-note>
+<app-search (SearchNote1)="searchComponent($event)"></app-search>
+<app-note *ngFor="let abc of notes" [ViewData]="abc"></app-note>

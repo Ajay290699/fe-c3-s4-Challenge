@@ -24,6 +24,11 @@
       "id": 5,
       "title": "refactor challenge",
       "content": "make design responsive and add comments in code"
+    },
+    {
+      "id": "6",
+      "title": "Java",
+      "content": "java is a language"
     }
   ]
 }

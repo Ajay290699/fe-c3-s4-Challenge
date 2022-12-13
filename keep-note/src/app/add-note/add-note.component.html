@@ -1,0 +1,11 @@
+<div id="card">
+    <h3>Add New Note</h3>
+    <div>
+        <input type="text" placeholder="Note Id" [(ngModel)]="addedNote.id" class="input1">
+        <input type="text" placeholder="Note Title" [(ngModel)]="addedNote.title" class="input2">
+    </div>
+    <div>
+        <textarea type="text" cols="46" rows="5" placeholder="Note Content" [(ngModel)]="addedNote.content" class="input3"></textarea>
+    </div>
+    <button (click)="saveNote()">Save</button>
+</div>
